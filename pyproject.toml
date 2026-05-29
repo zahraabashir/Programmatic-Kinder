@@ -1,0 +1,18 @@
+[project]
+name = "plastic-kinder"
+version = "0.1.0"
+description = "Minimal DSL search experiments for KinDER environments."
+requires-python = ">=3.10,<3.13"
+dependencies = [
+    "kindergarden[kinematic2d]",
+    "numpy",
+    "pyyaml",
+    "tqdm",
+    "matplotlib",
+]
+
+[tool.ruff]
+line-length = 88
+
+[tool.pyright]
+include = ["plastic_kinder", "scripts"]
