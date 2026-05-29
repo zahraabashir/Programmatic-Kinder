@@ -1,0 +1,9 @@
+env_id: "kinder/Obstruction2D-o1-v0"
+
+eval:
+  num_episodes: 20
+  max_steps: 200
+  seed: 0
+
+search:
+  max_program_length: 3
